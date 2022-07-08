@@ -14,7 +14,7 @@ with open('atomicwrites/__init__.py', 'rb') as f:
         f.read().decode('utf-8')).group(1)))
 
 setup(
-    name='atomicwrites',
+    name='atomicwrites-homeassistant',
     version=version,
     author='Markus Unterwaditzer',
     author_email='markus@unterwaditzer.net',

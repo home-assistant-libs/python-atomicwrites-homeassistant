@@ -12,6 +12,8 @@ python-atomicwrites
 
 **Atomic file writes.**
 
+Fork because the original package is unmaintained.
+
 .. code-block:: python
 
     from atomicwrites import atomic_write
@@ -21,7 +23,7 @@ python-atomicwrites
         # "foo.txt" doesn't exist yet.
 
     # Now it does.
-    
+
 See `API documentation <https://python-atomicwrites.readthedocs.io/en/latest/#api>`_ for more
 low-level interfaces.
 
@@ -51,7 +53,7 @@ Features that distinguish it from other similar libraries (see `Alternatives and
 
       If you really need atomic-or-nothing, you can try calling
       NtSetInformationFile, which is unsupported but is much more likely to be
-      atomic. 
+      atomic.
 
 - Simple high-level API that wraps a very flexible class-based API.
 
